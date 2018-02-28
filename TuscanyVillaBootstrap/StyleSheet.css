@@ -1,2 +1,89 @@
-﻿body {
+﻿ul.navbar-nav{
+    text-align: right;
+}
+
+bg-dark {
+    background-color: slategray!important;
+}
+.nav-link{
+    color: white!important;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+div.col-9.maincol {
+    background: url('images/tuscany-villas-sant-anna.jpg') no-repeat center center;
+
+}
+div.col-3.sidecol {
+    background: url('images/Versilia.jpg') no-repeat center center;
+}
+div.col.navcol{
+    padding: 0px;
+}
+div#jumbomain.jumbotron{
+    background: none;
+    text-align: center;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: .9;
+
+}
+
+div.row.subheaderbar{
+    text-align: center;
+    color: white;
+    background-color: #474e5d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+div.col-5.locationscolodd {
+    background-image: url('images/italy-mountain-villa.jpeg');
+    background-size: cover;
+    height: 270px;
+}
+
+div.col-7.locationscolodd{
+    padding-top: 25px;
+    line-height: 17px;
+}
+
+.row.locationsrowodd {
+    margin-top: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+    height: 300px;
+}
+p.locationheader{
+    font-size: 20px;
+}
+button.btn {
+    background-color: #474e5d;
+    border-color: #474e5d;
+    color: white;
+}
+
+div.col-5.locationscolodd2 {
+    background-image: url('images/tuscany-grape-field-nature-51947.jpeg');
+    background-size: cover;
+    height: 270px;
+}
+div.row.locationsroweven {
+    background-color: #474e5d;
+}
+div.col-5.locationscoleven{
+
+}
+div.col-7.locationscoleven {
+    color: white;
+}
+button.btn#buttoneven {
+    background-color: white;
+    color: #474e5d;
+}
+div.col-5.locationscoleven {
+    background-image: url('images/tuscany-grape-field-nature-51947.jpeg');
+    background-size: cover;
+    height: 270px;
 }
